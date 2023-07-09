@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <meta charSet="utf-8"/>
+    <script>
+    !function() {
+        try {
+            var d = document.documentElement.classList;
+            d.remove('light', 'dark');
+            var e = localStorage.getItem('theme');
+            if ("system" === e || (!e && true)) {
+                var t = "(prefers-color-scheme: dark)",
+                    m = window.matchMedia(t);
+                m.media !== t || m.matches ? d.add('dark') : d.add('light')
+            } else if (e)
+                d.add(e)
+        } catch (e) {}
+    }()
+    </script>
+    <title>GDSC BITS Hyd</title>
+    <meta name="next-head-count" content="4"/>
+    <link rel="preload" href="/_next/static/css/e8c449193d2a68865cee.css" as="style"/>
+    <link rel="stylesheet" href="/_next/static/css/e8c449193d2a68865cee.css" data-n-g=""/>
+    <noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-a54b4f32bdc1ef890ddd.js"></script>
+    <script src="/_next/static/chunks/webpack-672781b4256b347cef75.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-64eb7138163e04c228e4.js" defer=""></script>
+    <script src="/_next/static/chunks/main-0786f78015b8368a3815.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-050b0a92dd5ae7ab53b1.js" defer=""></script>
+    <script src="/_next/static/chunks/1bfc9850-1279e7fa290364056bc8.js" defer=""></script>
+    <script src="/_next/static/chunks/de71a805-a88b012045c707daed41.js" defer=""></script>
+    <script src="/_next/static/chunks/78e521c3-fdf140856cd3cfc733ac.js" defer=""></script>
+    <script src="/_next/static/chunks/d64684d8-0b87ab79d63d0993f6ab.js" defer=""></script>
+    <script src="/_next/static/chunks/280-1c7f5c1ede7363bda4fb.js" defer=""></script>
+    <script src="/_next/static/chunks/675-ee4801111c535644463a.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/index-8c5564162bf2eb4b01e4.js" defer=""></script>
+    <script src="/_next/static/RCg7T94OcAePScLfqIWK9/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/RCg7T94OcAePScLfqIWK9/_ssgManifest.js" defer=""></script>
+</head>
+<body>
+    <div id="__next">
+        <div class="bg-white dark:bg-black overflow-hidden">
+            <div class="container">
+                <nav class="flex justify-between p-4 items-center">
+                    <div class="flex space-x-3 items-center cursor-pointer transition duration-500 hover:scale-110">
+                        <div>
+                            <img src="/googleDscLogo.svg" alt="Logo" height="40" width="40" loading="lazy"/>
+                        </div>
+                        <div>
+                            <h1 class="text-lg md:text-lg lg:text-2xl dark:text-white">Google Developer Student Clubs</h1>
+                            <h1 class="text-base md:text-base lg:text-lg dark:text-white">BITS Pilani Hyderabad Campus</h1>
+                        </div>
+                    </div>
+                    <ul class="flex gap-5 space-x-3 items-center">
+                        <div class="hidden md:flex gap-5 space-x-3 items-center">
+                            <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Events</div>
+                            <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Team</div>
+                            <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Projects</div>
+                            <a href="https://discord.gg/qMZDZ2NpMB">
+                                <div class="flex gap-2 items-center bg-google-blue hover:bg-google-blue font-bold p-2 rounded transition duration-500 hover:scale-110">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" style="color:white;font-size:1em" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path>
+                                    </svg>
+                                    <h1 style="color:white;font-size:1em" class="text-red">Join Community</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <button aria-label="Toggle Dark Mode" type="button" class="h-12 w-12 order-2 md:order-3 rounded transition duration-500 hover:scale-110">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 6.934l1-2.934c.072-.213.078-.452 0-.682-.188-.553-.789-.848-1.341-.659-.553.189-.847.788-.659 1.341l1 2.934zM4 11c-.213-.072-.452-.078-.682 0-.553.188-.848.789-.659 1.341.189.553.788.847 1.341.659l2.934-1-2.934-1zM12 17.066l-1 2.934c-.072.213-.078.452 0 .682.188.553.789.848 1.341.659.553-.189.847-.788.659-1.341l-1-2.934zM21.341 11.657c-.188-.553-.788-.848-1.341-.659l-2.934 1 2.934 1c.213.072.452.078.682 0 .552-.188.847-.789.659-1.341zM5.636 7.05l2.781 1.367-1.367-2.781c-.1-.202-.265-.375-.482-.482-.524-.258-1.157-.042-1.415.482-.257.523-.041 1.157.483 1.414zM5.153 17.432c-.257.523-.041 1.156.482 1.414.523.257 1.157.041 1.414-.482l1.367-2.781-2.781 1.367c-.201.099-.374.263-.482.482zM18.363 16.949l-2.781-1.367 1.367 2.781c.1.202.264.375.482.482.523.257 1.156.041 1.414-.482s.042-1.157-.482-1.414zM18.844 6.566c.258-.524.042-1.157-.481-1.415-.523-.257-1.157-.041-1.414.482l-1.369 2.783 2.782-1.368c.202-.1.375-.264.482-.482zM12 7.5c-2.481 0-4.5 2.019-4.5 4.5s2.019 4.5 4.5 4.5 4.5-2.019 4.5-4.5-2.019-4.5-4.5-4.5z"></path>
+                            </svg>
+                        </button>
+                    </ul>
+                </nav>
+                <section class="relative p-4">
+                    <div class=" container flex flex-col-reverse lg:flex-row items-center gap-12 mt-8 lg:mt-20 ">
+                        <div class="flex flex-1 flex-col items-center lg:items-start gap-2">
+                            <h2 class="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6" style="opacity:0;transform:scale(0.8) translateZ(0)">Google Developer Student Clubs</h2>
+                            <p class="text-gray-600 dark:text-gray-300 text-2xl text-center lg:text-left mb-2" style="opacity:0">BITS Pilani Hyderabad Campus</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-base text-center lg:text-left mb-6" style="opacity:0">Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies</p>
+                            <div class="flex justify-center flex-wrap gap-6">
+                                <div class="flex space-x-5" style="opacity:0;transform:scale(0.8) translateZ(0)">
+                                    <a href="https://www.facebook.com/DSC-BITS-Pilani-Hyderabad-Campus-100721895642962">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.instagram.com/gdscbitshyderabad/">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/75016791/">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h14V5H5zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 1h2v7.5h-2V10zm5.5.43c.584-.565 1.266-.93 2-.93 2.071 0 3.5 1.679 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 0 0-3.5 0v4.25h-2V10h2v.43z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a href="https://medium.com/@dscbitshyd">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h14V5H5zm12.3 10.94l.955.954v.05h-4.921v-.05l1.004-.954c.1-.1.15-.2.15-.351V9.664c0-.252 0-.603.051-.904l-3.314 8.285h-.05L7.76 9.412c-.05-.2-.1-.2-.15-.3v5.02c-.051.352 0 .653.15.955l1.356 1.807v.05H5.5v-.05l1.356-1.858c.15-.3.2-.652.15-.954V8.56c0-.251-.05-.553-.25-.753L5.851 6.55V6.5h3.515l2.912 6.478L14.84 6.5h3.415v.05l-.954 1.105c-.1.1-.15.251-.15.351v7.633c0 .1.05.251.15.301z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UCJq1Z26Ed4ZS-RZ5GSs5pKA">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path fill-rule="nonzero" d="M19.606 6.995c-.076-.298-.292-.523-.539-.592C18.63 6.28 16.5 6 12 6s-6.628.28-7.069.403c-.244.068-.46.293-.537.592C4.285 7.419 4 9.196 4 12s.285 4.58.394 5.006c.076.297.292.522.538.59C5.372 17.72 7.5 18 12 18s6.629-.28 7.069-.403c.244-.068.46-.293.537-.592C19.715 16.581 20 14.8 20 12s-.285-4.58-.394-5.005zm1.937-.497C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5v-7l6 3.5-6 3.5z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a href="mailto:dscbitshyd@gmail.com">
+                                        <div class="hover:rotate-12 transition duration-200">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 lg:hidden md:hidden mt-5">
+                                <div class="border rounded-md p-2">
+                                    <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Events</div>
+                                </div>
+                                <div class="border rounded-md p-2">
+                                    <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Team</div>
+                                </div>
+                                <div class="border rounded-md p-2">
+                                    <div class="text-lg font-light text-gray-800 dark:text-white rounded transition duration-500 hover:scale-110 cursor-pointer">Projects</div>
+                                </div>
+                            </div>
+                            <div class="block lg:hidden md:hidden mt-5">
+                                <a href="https://discord.gg/qMZDZ2NpMB">
+                                    <div class="flex gap-2 items-center bg-google-blue hover:bg-google-blue font-bold p-2 rounded transition duration-500 hover:scale-110">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" style="color:white;font-size:1em" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path>
+                                        </svg>
+                                        <h1 style="color:white;font-size:1em" class="text-red">Join Community</h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 transition duration-500 hover:scale-105" style="opacity:0;transform:scale(0.8) translateZ(0)">
+                            <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
+                                <div style="box-sizing:border-box;display:block;max-width:100%">
+                                    <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyMiIgaGVpZ2h0PSI2ODEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"/>
+                                </div>
+                                <noscript>
+                                    <img srcSet="/_next/image?url=%2Fdome-01.jpeg&amp;w=1080&amp;q=75 1x, /_next/image?url=%2Fdome-01.jpeg&amp;w=2048&amp;q=75 2x" src="/_next/image?url=%2Fdome-01.jpeg&amp;w=2048&amp;q=75" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg shadow-2xl sm:px-5"/>
+                                </noscript>
+                                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg shadow-2xl sm:px-5" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" hidden lg:block overflow-hidden bg-google-red rounded-l-full absolute h-45 w-2/4 top-32 right-0 lg: -bottom-28 lg:-right-36 "></div>
+                        <div class=" hidden lg:block overflow-hidden bg-google-blue rounded-l-full absolute h-45 w-2/4 top-40 right-0 lg: -bottom-28 lg:-right-36 "></div>
+                        <div class=" hidden lg:block overflow-hidden bg-google-green rounded-l-full absolute h-45 w-2/4 top-48 right-0 lg: -bottom-28 lg:-right-36 "></div>
+                        <div class=" hidden lg:block overflow-hidden bg-google-yellow rounded-l-full absolute h-45 w-2/4 top-56 right-0 lg: -bottom-28 lg:-right-36 "></div>
+                    </div>
+                </section>
+                <section class="py-20 mt-20" style="opacity:0;transform:scale(0.8) translateZ(0)">
+                    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+                        <h1 class="text-3xl text-center text-bookmark-blue">About Us</h1>
+                    </div>
+                    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
+                        <div class=" transition duration-500 hover:scale-105 dark:bg-gray-900 flex flex-col rounded-md shadow-xl lg:mb-16">
+                            <div class="p-10 flex flex-col items-center">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="w-12 h-12" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                                <div class="mr-4 ml-4 flex flex-col items-center">
+                                    <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Concept of DSC</h3>
+                                    <p class="mb-2 text-bookmark-grey font-light text-justify">The DSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" transition duration-500 hover:scale-105 dark:bg-gray-900 flex flex-col rounded-md shadow-xl lg:my-8">
+                            <div class="p-10 flex flex-col items-center">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="w-12 h-12" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                                </svg>
+                                <h3 class="mr-4 ml-4 mt-5 mb-2 text-bookmark-blue text-lg">Why DSC ?</h3>
+                                <p class="mb-2 text-bookmark-grey font-light text-justify">For students to learn development skills, solve problems through technology and inspire them to be world class developers and changemakers.</p>
+                            </div>
+                        </div>
+                        <div class=" transition duration-500 hover:scale-105 dark:bg-gray-900 flex flex-col rounded-md shadow-xl lg:mt-16">
+                            <div class="p-10 flex flex-col items-center">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="w-12 h-12" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                                <h3 class="mr-4 ml-4 mt-5 mb-2 text-bookmark-blue text-lg">Target audience</h3>
+                                <p class="mb-2 text-bookmark-grey font-light text-justify">DSC activities are targeted at University students and any others including faculty members who want to learn development skills &amp; work to solve real-life problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"RCg7T94OcAePScLfqIWK9","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+</body>
+</html>
